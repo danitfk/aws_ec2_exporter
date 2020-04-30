@@ -1,3 +1,4 @@
+```
 # HELP aws_ec2_ebs_only Whether an instance_type *only* supports EBS as its root device volume
 # TYPE aws_ec2_ebs_only gauge
 aws_ec2_ebs_only{bare_metal="false",current_gen="false",free_tier="false",hibernation="false",hypervisor="xen",instance_type="c1.medium",region="us-west-2"} 0
@@ -5148,3 +5149,4 @@ promhttp_metric_handler_requests_in_flight 1
 promhttp_metric_handler_requests_total{code="200"} 0
 promhttp_metric_handler_requests_total{code="500"} 0
 promhttp_metric_handler_requests_total{code="503"} 0
+```
